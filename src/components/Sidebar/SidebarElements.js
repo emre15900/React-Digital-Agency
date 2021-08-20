@@ -14,8 +14,8 @@ export const SidebarContainer = styled.aside`
   top: 0;
   left: 0;
   transition: 0ms.3s ease-in-out;
-  opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
-  top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
+  /* opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
+  top: ${({ isOpen }) => (isOpen ? "0" : "-100%")}; */
 `;
 
 export const Icon = styled.div`
@@ -76,9 +76,16 @@ export const SidebarRoute = styled(LinkR)`
   color: #010606;
   font-size: 16px;
   outline: none;
+  text-decoration: none;
   border: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  background: #fff;
-  color: #010606;
+  background: #01bf71;
+  color: #fff;
+
+  &:hover{
+      transition: all 0.2s ease-in-out;
+      background: #fff;
+      color: #010606;
+  }
 `;
