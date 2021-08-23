@@ -10,7 +10,7 @@ import {
   HeroBtnWrapper,
   ArrowForward,
   ArrowRight,
-  Button
+  Button,
 } from "./HeroElements";
 
 const HeroSection = () => {

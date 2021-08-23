@@ -29,7 +29,15 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-  color: #fff;
+  background-image: linear-gradient(356deg, #fff 33%, #01bf71 55%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -o-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -o-text-fill-color: transparent;
+
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
@@ -88,10 +96,10 @@ export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
 
-  @media screen and (max-width: 768px){
-      display: none;
+  @media screen and (max-width: 768px) {
+    display: none;
   }
-`
+`;
 export const NavBtnLink = styled(LinkR)`
   border-radius: 50px;
   background: #01bf71;
@@ -105,9 +113,9 @@ export const NavBtnLink = styled(LinkR)`
   transition: all 0.2s ease-in-out;
   text-decoration: none;
 
-  &:hover{
-      transition: all 0.2s ease-in-out;
-      background: #fff;
-      color: #010606;
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #010606;
   }
-`
+`;
