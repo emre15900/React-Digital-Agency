@@ -36,9 +36,9 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
   id: "about",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: "Premium Bank",
   headLine: "Unlimited Transactions with zero fees",
   description:
@@ -47,7 +47,7 @@ export const homeObjThree = {
   imgStart: false,
   img: "https://emre.sayinweb.com/src/svg-6.svg",
   alt: "Car",
-  dark: true,
-  primary: true,
-  darkText: false,
+  dark: false,
+  primary: false,
+  darkText: true,
 };
