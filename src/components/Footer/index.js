@@ -1,4 +1,6 @@
 import React from "react";
+import { animeteScroll as scroll } from "react-scroll";
+
 import {
   FaFacebook,
   FaInstagram,
@@ -6,6 +8,7 @@ import {
   FaTwitter,
   FaLinkedin,
 } from "react-icons/fa";
+
 import {
   FooterContainer,
   FooterWrap,
@@ -23,6 +26,10 @@ import {
 } from "./FooterElements";
 
 const Footer = () => {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <FooterContainer>
       <FooterWrap>
@@ -61,7 +68,9 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="">Sayinweb</SocialLogo>
+            <SocialLogo to="/" onClick={toggleHome}>
+              Sayinweb
+            </SocialLogo>
             <WebsiteRights>
               Sayinweb ◄ {new Date().getFullYear()}
               All rights reserved.

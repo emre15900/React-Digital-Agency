@@ -31,6 +31,7 @@ export const InfoRow = styled.div`
   @media screen and (max-width: 768px) {
     grid-template-areas: ${({ imgStart }) =>
       imgStart ? `"col2 col1"` : `"col1 col2" "col2 col2"`};
+    display: block;
   }
 `;
 
@@ -38,12 +39,14 @@ export const Column1 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col1;
+
 `;
 
 export const Column2 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col2;
+  
 `;
 
 export const TextWrapper = styled.div`
@@ -96,4 +99,8 @@ export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
+
+  @media screen and (max-width: 768px){
+    max-height: 45vh;
+  }
 `;
