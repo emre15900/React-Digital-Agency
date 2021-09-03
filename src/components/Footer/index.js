@@ -73,7 +73,7 @@ const Footer = () => {
             </SocialLogo>
             <WebsiteRights>
               Sayinweb ◄ {new Date().getFullYear()}
-              All rights reserved.
+               All rights reserved.
               <SocialIcons>
                 <SocialIconLink
                   href="//www.facebook.com/"
