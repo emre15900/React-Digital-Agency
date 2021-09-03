@@ -35,7 +35,7 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  id: "about",
+  id: "startnow",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
@@ -43,7 +43,7 @@ export const homeObjThree = {
   headLine: "Unlimited Transactions with zero fees",
   description:
     "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
-  buttonLabel: "Get started",
+  buttonLabel: "Start Now",
   imgStart: false,
   img: "https://emre.sayinweb.com/src/svg-6.svg",
   alt: "Car",

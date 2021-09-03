@@ -13,19 +13,14 @@ import {
   ArrowRight,
 } from "./HeroElements";
 
-
-import deneme from '@components/test'
-
+import deneme from "@components/test";
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
 
-  
   const onHover = () => {
     setHover(!hover);
   };
-
-
 
   return (
     <HeroContainer id="home">
@@ -40,11 +35,16 @@ const HeroSection = () => {
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            to="signup"
+            to="startnow"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary="true"
             dark="true"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
           >
             Get started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
