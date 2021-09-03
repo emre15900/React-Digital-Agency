@@ -10,6 +10,7 @@ import {
   FooterContainer,
   FooterWrap,
   FooterLinksContainer,
+  FooterLinksWrapper,
   FooterLinkItems,
   FooterLinkTitle,
   FooterLink,
@@ -109,4 +110,4 @@ const Footer = () => {
   );
 };
 
-export default index;
+export default Footer;

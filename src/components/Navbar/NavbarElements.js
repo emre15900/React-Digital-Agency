@@ -30,14 +30,15 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-  background-image: linear-gradient(356deg, #fff 33%, #01bf71 55%);
+  /* background-image: linear-gradient(356deg, #fff 33%, #01bf71 55%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -o-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  -o-text-fill-color: transparent;
+  -o-text-fill-color: transparent; */
+  color: #01bf71;
 
   justify-self: flex-start;
   cursor: pointer;
